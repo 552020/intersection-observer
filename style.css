@@ -14,10 +14,6 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  /* background-color:; */
-}
-
 .nav {
   border-radius: 6px;
   /* width: 98%; */
@@ -39,6 +35,23 @@ body {
   /* background-color: cadetblue; */
   margin: 16px;
   padding: 8px;
+}
+
+.header-image {
+  width: 90%;
+  /* border: 1px black solid; */
+  margin: 5px auto;
+}
+
+img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  width: 99%;
+  margin: 5px auto;
+  border-radius: 6px;
+  padding-bottom: 32px;
 }
 
 h1 {
@@ -147,4 +160,39 @@ p {
 .nav.sticky li:hover {
   background-color: rgba(194, 37, 92, 0.9);
   color: rgba(247, 131, 172, 1);
+}
+
+.footer {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 6px;
+  /* width: 98%; */
+  background-color: grey;
+  padding: 20px;
+  align-items: flex-end;
+}
+
+.title {
+  margin: 32px auto;
+  /* border: solid 1px black; */
+  border-radius: 6px;
+  margin-bottom: 52px;
+  background-color: #ced4da;
+  padding: 20px;
+  box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+footer h2 {
+  font-family: "Comfortaa", cursive;
+  color: #dee2e6;
+  color: #495057;
+  /* text-shadow: 1px 1px 1px #66a80f, 2px 2px 2px #5c940d, 3px 3px 1px #66a80f,
+    4px 4px 1px #74b816, 5px 5px 1px #82c91e, 6px 6px 1px #94d82d,
+    7px 7px 1px #a9e34b, 8px 8px 1px #c0eb75, 9px 9px 1px #d8f5a2,
+    10px 10px 1px #e9fac8; */
+  /* font-size: 170px; */
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
