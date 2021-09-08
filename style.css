@@ -134,6 +134,18 @@ p {
   margin-bottom: 10px;
 }
 
+.section {
+  /* padding: 15rem 3rem; */
+  /* border-top: 1px solid #ddd; */
+
+  transition: transform 1s, opacity 1s;
+}
+
+.section--hidden {
+  opacity: 0;
+  transform: translateY(8rem);
+}
+
 #section-1,
 #section-2,
 #section-3 {
